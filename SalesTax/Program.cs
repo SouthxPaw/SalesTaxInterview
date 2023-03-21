@@ -111,7 +111,7 @@ class Program
 
         List<ShoppingCartItem> firstCart = new List<ShoppingCartItem>() { book, musicCD, chocolateBar };
 
-        //This commented out in case you want to check the logic on multiple of the same product added to the cart
+        //This is commented out in case you want to check the logic on multiple of the same product added to the cart
         //Also uncomment Line 24-30
         //List<ShoppingCartItem> firstCart = new List<ShoppingCartItem>() { book, book2, musicCD, chocolateBar };
 

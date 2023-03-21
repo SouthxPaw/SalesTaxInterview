@@ -29,6 +29,8 @@ namespace SalesTax.Controllers
                 //So we can correctly add up sales tax and get the individual items added to the list
                 //Added ids to the cartItems so we could weed out dupes when interating
                 //This will play a part in adding the correct quantities
+                //I added the ids manually, but I know in a real world scenario, these are set by the databas
+                //and entries that are exactly the same will have the same id, which is how I set it up in the Program.cs file
                 foreach (var cartItem in cartItems.DistinctBy(c => c.Id))
                 {
                     //Setting quantity here because if we are iterating through this foreach
@@ -40,12 +42,12 @@ namespace SalesTax.Controllers
                     //If so, then we can set the list to how many the customer has in their basket
                     if (dupeList.Contains(cartItem)) quantity = dupeList.Where(c => c.Id == cartItem.Id).Count();
 
+                    //Checking each scenario to add certain taxes to the price after tax and sales tax
                     if (cartItem.TaxExempt == Enums.Exempt.None && !cartItem.IsImported)
                     {
                         basicSalesCalc = new BasicSalesTaxCalculator(cartItem);
                         salesTax += basicSalesCalc.CalculateTax();
                         priceAfterTax = Math.Round(cartItem.BasePrice + basicSalesCalc.CalculateTax(), 2);
-
                         formattedString = quantity + " " + cartItem.Name + ": " + priceAfterTax + Environment.NewLine;
                         formattedStrings.Add(formattedString);
                     }
@@ -96,7 +98,7 @@ namespace SalesTax.Controllers
 
                 //For whatever reason that there are no strings added to this list at all
                 //We want to be able to catch it to make sure that it's not printing nonsense and instead
-                //Printing the error message so we can let the user know that something happened while running the code
+                //printing the error message so we can let the user know that something happened while running the code
                 if (formattedStrings.Count != 0)
                 {
                     return formattedStrings;
