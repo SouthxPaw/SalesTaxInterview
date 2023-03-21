@@ -1,0 +1,15 @@
+C:\Users\jorda\source\repos\SalesTax\SalesTax\bin\Debug\net6.0\SalesTax.exe
+C:\Users\jorda\source\repos\SalesTax\SalesTax\bin\Debug\net6.0\SalesTax.deps.json
+C:\Users\jorda\source\repos\SalesTax\SalesTax\bin\Debug\net6.0\SalesTax.runtimeconfig.json
+C:\Users\jorda\source\repos\SalesTax\SalesTax\bin\Debug\net6.0\SalesTax.dll
+C:\Users\jorda\source\repos\SalesTax\SalesTax\bin\Debug\net6.0\SalesTax.pdb
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.csproj.AssemblyReference.cache
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.AssemblyInfoInputs.cache
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.AssemblyInfo.cs
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.csproj.CoreCompileInputs.cache
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.dll
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\refint\SalesTax.dll
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.pdb
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\SalesTax.genruntimeconfig.cache
+C:\Users\jorda\source\repos\SalesTax\SalesTax\obj\Debug\net6.0\ref\SalesTax.dll
