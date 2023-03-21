@@ -19,7 +19,7 @@ class Program
         };
 
         //This commented out in case you want to check the logic on multiple of the same product added to the cart
-        //Also uncomment Line 116
+        //Also uncomment Line 117
         //ShoppingCartItem book2 = new ShoppingCartItem()
         //{
         //    Id = 1,
@@ -109,6 +109,7 @@ class Program
         #region Cart Declarations
         //Declaring carts down here for readability
 
+        //Comment out this line if going to uncomment to the other list on Line 117
         List<ShoppingCartItem> firstCart = new List<ShoppingCartItem>() { book, musicCD, chocolateBar };
 
         //This is commented out in case you want to check the logic on multiple of the same product added to the cart
