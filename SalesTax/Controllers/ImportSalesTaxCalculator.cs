@@ -3,7 +3,7 @@ using SalesTax.Interface;
 
 namespace SalesTax.Controllers
 {
-    internal class ImportSalesTaxCalculator : SalesTaxCalculator
+    public class ImportSalesTaxCalculator : SalesTaxCalculator
     {
         private readonly ShoppingCartItem _cartItem;
         public ImportSalesTaxCalculator(ShoppingCartItem cartItem)
